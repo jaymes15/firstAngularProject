@@ -7,7 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TestComponent implements OnInit {
 
-	title = 'Test Component';
-  
+  constructor() { }
 
-}
+  ngOnInit(): void {
+  }
+
+   title = 'test component';
+   public inputid = "text";
+   public inputid1 = "text1";
+   public isDisabled = false;
+  
+   }

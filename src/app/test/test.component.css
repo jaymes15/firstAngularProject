@@ -1,0 +1,15 @@
+.text-danger{
+	color:red;
+}
+
+.isSpecial{
+	font-style: italic;
+	color:white;
+}
+
+.background{
+	background-color: black;
+}
+.welcome{
+	color:blue;
+}

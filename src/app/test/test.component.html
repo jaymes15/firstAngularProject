@@ -1,8 +1,8 @@
 
 
-	<p>test works!</p>
-	<p>Cli command for creating new component</p>
-	<p>ng g c <i>component-name</i></p>
+	<p [class]="welcome">test works!</p>
+	<p [class.text-danger] = "hasError" >Cli command for creating new component</p>
+	<h2 [ngClass]="selector">ng g c <i>component-name</i></h2>
 <p><input type="text" name="" [id]="inputid" /></p>
 <p><input type="text" name="" bind-id="inputid1" /></p>
 <p><input type="text" name="" [disabled]="isDisabled" /></p>

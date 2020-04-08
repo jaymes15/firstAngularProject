@@ -18,3 +18,8 @@
 
 <p><input #myInput type="text" name=""  />{{logMessager}}</p>
 <button (click) = "logMessage(myInput.value)">Click Me </button>
+
+
+<h2>Two way binding</h2>
+
+<p><input [(ngModel)]="name" type="text" name=""  />{{name}}</p>

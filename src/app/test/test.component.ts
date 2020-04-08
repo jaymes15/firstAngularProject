@@ -18,6 +18,7 @@ export class TestComponent implements OnInit {
    public isDisabled = false;
    public event;
    public logMessager;
+   public name;
  
   public welcome = "welcome";
   public hasError =true;

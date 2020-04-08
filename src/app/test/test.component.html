@@ -7,5 +7,10 @@
 <p><input type="text" name="" bind-id="inputid1" /></p>
 <p><input type="text" name="" [disabled]="isDisabled" /></p>
 
+<button (click) = "onClick()">Click Me</button>
+{{event}}<br/><br/>
+
+<button (click) = "onClick1($event)">Click Me event type</button>
+
 
 

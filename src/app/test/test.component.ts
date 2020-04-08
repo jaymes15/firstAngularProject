@@ -16,12 +16,23 @@ export class TestComponent implements OnInit {
    public inputid = "text";
    public inputid1 = "text1";
    public isDisabled = false;
+   public event;
  
   public welcome = "welcome";
   public hasError =true;
+
    public selector = {
   	"back": this.hasError,
   	"isSpecial": this.hasError,
   	"background":this.hasError
   }
+
+onClick (){
+	console.log("Event binding");
+	this.event ="Event binding";
+}
+onClick1 (event){
+	console.log(event);
+	
+}
    }

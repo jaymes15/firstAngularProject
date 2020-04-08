@@ -12,5 +12,6 @@ export class StructuralDirectiveComponent implements OnInit {
   ngOnInit(): void {
   }
   public displayName = false;
+  public color = "red";
 
 }

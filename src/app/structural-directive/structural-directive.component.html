@@ -10,3 +10,11 @@
 <ng-template #elseBlock>
 	<h1>hidden</h1>
 </ng-template>	
+
+
+<div [ngSwitch]="color">
+	<div *ngSwitchCase = "'red'">Red</div>
+	<div *ngSwitchCase = "'blue'">Blue</div>
+	<div *ngSwitchCase = "'green'">Green</div>
+	<div *ngSwitchDefault >Pick Again</div>
+</div>

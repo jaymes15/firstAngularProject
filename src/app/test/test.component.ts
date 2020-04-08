@@ -17,6 +17,7 @@ export class TestComponent implements OnInit {
    public inputid1 = "text1";
    public isDisabled = false;
    public event;
+   public logMessager;
  
   public welcome = "welcome";
   public hasError =true;
@@ -35,4 +36,11 @@ onClick1 (event){
 	console.log(event);
 	
 }
-   }
+
+logMessage(value){
+	
+	console.log(value);
+	this.logMessager =  value;
+}
+   
+}

@@ -1,1 +1,12 @@
-<p>structural-directive works!</p>
+
+<h1>Structural directive</h1>
+
+<div *ngIf ="displayName; then ifBlock; else elseBlock"></div>
+
+<ng-template #ifBlock>
+	<h1>showing</h1>
+</ng-template>	
+
+<ng-template #elseBlock>
+	<h1>hidden</h1>
+</ng-template>	
